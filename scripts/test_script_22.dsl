@@ -1,6 +1,6 @@
 load "data/cursos_online.csv";
-filter column "id_estudiante" == "EST0627" OR;
-filter column "fecha_inicio" == 2022-05-28;
-aggregate SUM column "porcentaje_avance";
-aggregate AVERAGE column "calificacion_final";
+filter column "fecha_fin" <= 2024-07-06 AND;
+filter column "fecha_inicio" == 2022-06-06 OR;
+filter column "modalidad" == "Virtual";
+aggregate COUNT column "calificacion_final";
 print;

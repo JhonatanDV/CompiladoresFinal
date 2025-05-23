@@ -1,6 +1,5 @@
 load "data/cursos_online.csv";
-filter column "plataforma" != "Khan Academy" AND;
-filter column "plataforma" == "MasterClass";
+filter column "estado_curso" == "Cancelado";
 aggregate AVERAGE column "porcentaje_avance";
-aggregate COUNT column "fecha_fin";
+aggregate AVERAGE column "calificacion_final";
 print;

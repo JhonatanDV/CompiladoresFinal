@@ -1,5 +1,6 @@
 load "data/cursos_online.csv";
-filter column "fecha_inicio" < 2023-02-20;
-aggregate AVERAGE column "calificacion_final";
-aggregate COUNT column "id_estudiante";
+filter column "modalidad" != "Presencial" OR;
+filter column "id_estudiante" != "EST0245" AND;
+filter column "fecha_fin" == 2022-04-11;
+aggregate COUNT column "curso";
 print;

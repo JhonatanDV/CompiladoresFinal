@@ -1,6 +1,6 @@
 load "data/cursos_online.csv";
-filter column "estado_curso" == "En Progreso" OR;
-filter column "estado_curso" != "En Progreso" OR;
-filter column "curso" == "Data Science con R";
-aggregate AVERAGE column "porcentaje_avance";
+filter column "curso" != "Desarrollo Web Full Stack" OR;
+filter column "porcentaje_avance" <= 100;
+aggregate COUNT column "porcentaje_avance";
+aggregate AVERAGE column "calificacion_final";
 print;

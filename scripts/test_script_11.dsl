@@ -1,5 +1,5 @@
 load "data/cursos_online.csv";
-filter column "fecha_inicio" <= 2023-04-02 AND;
-filter column "modalidad" != "Presencial";
-aggregate SUM column "calificacion_final";
+filter column "curso" == "Desarrollo Web Full Stack" OR;
+filter column "fecha_inicio" == 2024-05-27;
+aggregate AVERAGE column "porcentaje_avance";
 print;

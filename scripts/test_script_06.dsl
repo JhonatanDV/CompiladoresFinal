@@ -1,5 +1,4 @@
 load "data/cursos_online.csv";
-filter column "calificacion_final" == 54.7;
-aggregate AVERAGE column "porcentaje_avance";
-aggregate SUM column "calificacion_final";
+filter column "estado_curso" != "Activo";
+aggregate COUNT column "modalidad";
 print;

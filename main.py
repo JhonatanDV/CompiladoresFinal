@@ -1098,6 +1098,27 @@ def run_all_tests():
     processor = QueryProcessor()
     return processor.execute_all_scripts_in_directory("scripts")
 
+def generate_parse_tree():
+    """Generate parse tree for demo script"""
+    try:
+        from src.parse_tree_generator import generate_parse_tree_for_script
+        
+        if not os.path.exists("scripts/demo_parse_tree.dsl"):
+            print("Demo script not found. Running setup first...")
+            setup_test_scripts()
+        
+        print("Generating parse tree for demo script...")
+        output_file = generate_parse_tree_for_script("scripts/demo_parse_tree.dsl", "doc/demo_parse_tree.png")
+        
+        if output_file:
+            print(f"✓ Parse tree generated successfully!")
+            print(f"  Location: {output_file}")
+        else:
+            print("✗ Failed to generate parse tree")
+            
+    except Exception as e:
+        print(f"✗ Error generating parse tree: {e}")
+
 def interactive_mode():
     """Run in interactive mode"""
     from src.csv_query_interpreter import CSVQueryDSLInterpreter, parse_dsl_string
@@ -1207,6 +1228,11 @@ def main():
         
         elif command == 'interactive':
             interactive_mode()
+            return
+            
+        elif command == 'parse-tree':
+            # Generate parse tree for demo script
+            generate_parse_tree()
             return
         
         elif command.endswith('.dsl'):

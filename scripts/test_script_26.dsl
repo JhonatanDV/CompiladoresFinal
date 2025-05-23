@@ -1,5 +1,5 @@
 load "data/cursos_online.csv";
-filter column "curso" == "Desarrollo Web Full Stack";
-aggregate SUM column "calificacion_final";
+filter column "id_estudiante" == "EST0770";
 aggregate AVERAGE column "porcentaje_avance";
+aggregate SUM column "calificacion_final";
 print;

@@ -1,5 +1,6 @@
 load "data/cursos_online.csv";
-filter column "modalidad" == "Presencial" OR;
-filter column "curso" == "Python Básico";
-aggregate SUM column "calificacion_final";
+filter column "fecha_inicio" == 2022-08-06 OR;
+filter column "modalidad" != "Autodirigida" OR;
+filter column "curso" != "Python Básico";
+aggregate COUNT column "porcentaje_avance";
 print;

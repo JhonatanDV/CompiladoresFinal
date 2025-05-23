@@ -1,5 +1,5 @@
 load "data/cursos_online.csv";
-filter column "porcentaje_avance" == 7;
-aggregate AVERAGE column "porcentaje_avance";
-aggregate COUNT column "id_estudiante";
+filter column "fecha_inicio" < 2023-06-27;
+aggregate COUNT column "fecha_fin";
+aggregate SUM column "calificacion_final";
 print;

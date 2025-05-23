@@ -84,14 +84,28 @@ class SimpleDSLInterpreter:
             return
         
         # Parse: filter column "column_name" operator value [AND/OR]
-        pattern = r'filter\s+column\s+"([^"]+)"\s+([><=!]+)\s+([^A-Z]+?)(?:\s+(AND|OR))?$'
-        match = re.match(pattern, statement.strip())
+        # Handle trailing semicolon and logical operators properly
+        statement = statement.strip()
+        if statement.endswith(';'):
+            statement = statement[:-1]
+        
+        # Extract logical operator if present at the end
+        logical_op = None
+        if statement.endswith(' AND'):
+            logical_op = 'AND'
+            statement = statement[:-4].strip()
+        elif statement.endswith(' OR'):
+            logical_op = 'OR'
+            statement = statement[:-3].strip()
+        
+        # Parse the main filter pattern
+        pattern = r'filter\s+column\s+"([^"]+)"\s+([><=!]+)\s+(.+)$'
+        match = re.match(pattern, statement)
         
         if match:
             column = match.group(1)
             operator = match.group(2)
             value_str = match.group(3).strip()
-            logical_op = match.group(4)
             
             # Parse value (string, number, or date)
             value = self._parse_value(value_str)
@@ -226,7 +240,8 @@ class SimpleDSLInterpreter:
                     result = result[condition]
                 elif prev_logical_op == 'OR':
                     # For OR, we need to combine with original data
-                    or_result = data[condition]
+                    or_condition = self._create_condition(data[column], operator, value)
+                    or_result = data[or_condition]
                     result = pd.concat([result, or_result]).drop_duplicates()
         
         return result

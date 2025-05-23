@@ -2,7 +2,7 @@ modules = ["python-3.11"]
 
 [nix]
 channel = "stable-24_05"
-packages = ["antlr", "glibcLocales"]
+packages = ["antlr", "freefont_ttf", "glibcLocales", "xdg-utils", "graphviz"]
 
 [workflows]
 runButton = "Project"

@@ -1,7 +1,7 @@
 load "data/cursos_online.csv";
-filter column "porcentaje_avance" <= 60 AND;
-filter column "fecha_inicio" < 2023-08-21 OR;
-filter column "fecha_fin" >= 2024-06-15;
-aggregate SUM column "porcentaje_avance";
+filter column "porcentaje_avance" < 70 OR;
+filter column "fecha_fin" >= 2022-03-11 AND;
+filter column "estado_curso" == "Cancelado";
 aggregate COUNT column "estado_curso";
+aggregate SUM column "porcentaje_avance";
 print;

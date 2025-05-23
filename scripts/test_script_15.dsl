@@ -1,4 +1,5 @@
 load "data/cursos_online.csv";
-filter column "fecha_fin" >= 2022-06-28;
+filter column "modalidad" == "Híbrida";
+aggregate AVERAGE column "porcentaje_avance";
 aggregate AVERAGE column "calificacion_final";
 print;

@@ -52,7 +52,9 @@ def generate_test_scripts(num_scripts=40, output_dir='scripts'):
             else:
                 # Subsequent filters - add logical operator to previous line
                 logical_op = random.choice(logical_ops)
-                script_lines[-1] = script_lines[-1].rstrip(';') + f' {logical_op};'
+                # Fix the previous filter line to include logical operator
+                prev_line = script_lines[-1].rstrip(';')
+                script_lines[-1] = prev_line + f' {logical_op};'
                 
                 filter_line = generate_filter_line(
                     columns, numeric_columns, string_columns, date_columns,

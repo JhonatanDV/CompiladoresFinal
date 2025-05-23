@@ -1,7 +1,7 @@
 load "data/cursos_online.csv";
-filter column "estado_curso" == "En Progreso" AND;
-filter column "calificacion_final" > 92.1 OR;
-filter column "estado_curso" == "Completado";
+filter column "id_estudiante" == "EST0934" OR;
+filter column "modalidad" != "Virtual" OR;
+filter column "plataforma" == "Codecademy";
 aggregate SUM column "calificacion_final";
-aggregate COUNT column "fecha_inicio";
+aggregate SUM column "porcentaje_avance";
 print;

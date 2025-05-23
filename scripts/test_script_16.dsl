@@ -1,5 +1,6 @@
 load "data/cursos_online.csv";
-filter column "modalidad" != "Autodirigida";
-aggregate COUNT column "id_estudiante";
-aggregate COUNT column "curso";
+filter column "fecha_fin" < 2024-04-18 AND;
+filter column "id_estudiante" == "EST0779";
+aggregate COUNT column "modalidad";
+aggregate AVERAGE column "calificacion_final";
 print;
