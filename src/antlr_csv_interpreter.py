@@ -156,40 +156,90 @@ class CSVQueryDSLInterpreter(CSVQueryDSLListener):
     
     def _apply_filters(self, data):
         """Apply all accumulated filters to the data"""
+        if not self.filters:
+            return data
+            
         result = data.copy()
         
-        for i, filter_cond in enumerate(self.filters):
+        # Build complete logical expression
+        conditions = []
+        logical_ops = []
+        
+        for filter_cond in self.filters:
             column = filter_cond['column']
             operator = filter_cond['operator']
             value = filter_cond['value']
             logical_op = filter_cond.get('logical_op')
             
-            if column not in result.columns:
+            if column not in data.columns:
                 print(f"Warning: Column '{column}' not found in data")
                 continue
                 
-            # Create condition
-            condition = self._create_condition(result[column], operator, value)
+            # Create condition using original data
+            condition = self._create_condition(data[column], operator, value)
+            conditions.append(condition)
             
-            if i == 0:
-                # First filter
-                result = result[condition]
-            else:
-                # Apply logical operator with previous result
-                prev_logical_op = self.filters[i-1].get('logical_op', 'AND')
-                if prev_logical_op == 'AND':
-                    result = result[condition]
-                elif prev_logical_op == 'OR':
-                    # For OR, we need to combine with original data
-                    or_condition = self._create_condition(data[column], operator, value)
-                    or_result = data[or_condition]
-                    result = pd.concat([result, or_result]).drop_duplicates()
+            if logical_op and logical_op in ['AND', 'OR']:
+                logical_ops.append(logical_op)
         
+        # Combine all conditions
+        if len(conditions) == 0:
+            return result
+        elif len(conditions) == 1:
+            final_condition = conditions[0]
+        else:
+            final_condition = conditions[0]
+            
+            for i, op in enumerate(logical_ops):
+                if i + 1 < len(conditions):
+                    next_condition = conditions[i + 1]
+                    
+                    if op == 'AND':
+                        final_condition = final_condition & next_condition
+                    elif op == 'OR':
+                        final_condition = final_condition | next_condition
+        
+        # Apply final condition
+        try:
+            result = data[final_condition]
+        except Exception as e:
+            print(f"Warning: Could not apply combined filter: {e}")
+            result = data
+            
         return result
     
     def _create_condition(self, series, operator, value):
         """Create a pandas condition based on operator and value"""
         try:
+            # Handle date comparisons - convert strings to datetime
+            if isinstance(value, str) and '-' in value and len(value) >= 4:
+                try:
+                    # Convert series to datetime if it contains date-like strings
+                    series_dt = pd.to_datetime(series, errors='coerce')
+                    value_dt = pd.to_datetime(value, errors='coerce')
+                    
+                    if not series_dt.isna().all() and not pd.isna(value_dt):
+                        series = series_dt
+                        value = value_dt
+                except:
+                    pass
+            
+            # Handle numeric comparisons - convert strings to numbers
+            elif isinstance(value, str) and value.replace('.', '').replace('-', '').isdigit():
+                try:
+                    if '.' in value:
+                        value = float(value)
+                    else:
+                        value = int(value)
+                        
+                    # Try to convert series to numeric
+                    series_numeric = pd.to_numeric(series, errors='coerce')
+                    if not series_numeric.isna().all():
+                        series = series_numeric
+                except:
+                    pass
+            
+            # Apply comparison operator
             if operator == '>=':
                 return series >= value
             elif operator == '<=':
@@ -203,11 +253,12 @@ class CSVQueryDSLInterpreter(CSVQueryDSLListener):
             elif operator == '!=':
                 return series != value
             else:
-                print(f"Unknown operator: {operator}")
-                return pd.Series([True] * len(series))
+                print(f"Warning: Unknown operator '{operator}'")
+                return pd.Series([True] * len(series), index=series.index)
+                
         except Exception as e:
             print(f"Error applying filter: {e}")
-            return pd.Series([True] * len(series))
+            return pd.Series([True] * len(series), index=series.index)
     
     def _apply_aggregation(self, data, aggregation):
         """Apply aggregation function to the data"""
