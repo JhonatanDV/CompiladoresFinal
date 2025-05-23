@@ -1,0 +1,301 @@
+id_inscripcion,id_estudiante,curso,porcentaje_avance,calificacion_final,fecha_inicio,fecha_fin,estado_curso,modalidad,plataforma
+INS0001,EST0233,Inteligencia Artificial,22,0.0,2023-07-29,2023-09-23,Activo,Autodirigida,MasterClass
+INS0002,EST0238,Python Básico,9,0.0,2024-11-23,2025-06-29,Activo,Híbrida,Platzi
+INS0003,EST0829,Cloud Computing AWS,100,85.3,2024-05-10,2025-01-17,Completado,Virtual,Codecademy
+INS0004,EST0405,Angular,13,0.0,2024-05-08,2024-10-06,Activo,Autodirigida,Coursera
+INS0005,EST0205,IoT,67,0.0,2024-11-18,2025-10-12,Pausado,Virtual,LinkedIn Learning
+INS0006,EST0802,Mobile App Development,100,82.4,2024-12-12,2025-05-01,Completado,Híbrida,Coursera
+INS0007,EST0064,Ciberseguridad,100,73.3,2025-04-04,2025-11-10,Completado,Autodirigida,MasterClass
+INS0008,EST0016,Python Básico,13,0.0,2024-02-07,2025-01-29,Pausado,Presencial,MasterClass
+INS0009,EST0631,Blockchain,14,0.0,2023-09-13,2024-01-06,En Progreso,Híbrida,Skillshare
+INS0010,EST0805,Tableau,1,0.0,2024-04-13,2024-07-01,Cancelado,Presencial,Skillshare
+INS0011,EST0796,Data Science con R,79,0.0,2024-01-19,2024-10-29,En Progreso,Virtual,Udemy
+INS0012,EST0752,Inteligencia Artificial,68,0.0,2025-05-20,2025-09-27,En Progreso,Presencial,Codecademy
+INS0013,EST0049,Robótica,20,0.0,2025-01-17,2025-09-07,Cancelado,Híbrida,Platzi
+INS0014,EST0485,DevOps y CI/CD,73,0.0,2024-02-20,2024-11-29,En Progreso,Presencial,Codecademy
+INS0015,EST0098,Power BI,100,98.9,2025-01-15,2026-01-05,Completado,Híbrida,MasterClass
+INS0016,EST0417,Project Management,43,0.0,2023-09-11,2024-08-07,En Progreso,Autodirigida,Coursera
+INS0017,EST0431,Angular,92,94.3,2024-07-23,2025-01-30,En Progreso,Autodirigida,Platzi
+INS0018,EST0445,Python Básico,24,0.0,2024-06-16,2024-11-04,Cancelado,Presencial,FreeCodeCamp
+INS0019,EST0291,Mobile App Development,100,73.0,2025-05-22,2025-12-03,Completado,Presencial,edX
+INS0020,EST0982,Robótica,1,0.0,2023-11-08,2024-09-02,Cancelado,Presencial,Coursera
+INS0021,EST0307,IoT,4,0.0,2024-01-03,2024-10-22,Activo,Autodirigida,Platzi
+INS0022,EST0613,Bases de Datos SQL,83,52.8,2024-10-07,2024-11-12,Activo,Autodirigida,FreeCodeCamp
+INS0023,EST0829,Data Science con R,8,0.0,2023-05-27,2023-11-27,Cancelado,Autodirigida,Khan Academy
+INS0024,EST0961,DevOps y CI/CD,30,0.0,2023-09-01,2024-05-20,Cancelado,Presencial,MasterClass
+INS0025,EST0003,Mobile App Development,35,0.0,2025-04-03,2025-05-15,Pausado,Presencial,Khan Academy
+INS0026,EST0810,Big Data,30,0.0,2024-10-08,2025-08-11,Activo,Virtual,edX
+INS0027,EST0406,Blockchain,20,0.0,2024-04-30,2024-11-26,Pausado,Presencial,Platzi
+INS0028,EST0922,Excel Avanzado,78,0.0,2024-12-30,2025-05-10,Pausado,Híbrida,MasterClass
+INS0029,EST0707,UI/UX Design,76,0.0,2023-08-11,2023-10-06,En Progreso,Híbrida,edX
+INS0030,EST0080,Bases de Datos SQL,16,0.0,2025-01-17,2025-09-07,Pausado,Autodirigida,Khan Academy
+INS0031,EST0365,Desarrollo Web Full Stack,62,0.0,2024-05-09,2024-09-18,En Progreso,Presencial,MasterClass
+INS0032,EST0604,Robótica,44,0.0,2024-08-14,2024-10-01,Pausado,Autodirigida,Codecademy
+INS0033,EST0273,Node.js,10,0.0,2024-02-24,2024-10-29,Cancelado,Presencial,LinkedIn Learning
+INS0034,EST0313,Desarrollo Web Full Stack,25,0.0,2025-05-14,2026-03-17,Cancelado,Presencial,Codecademy
+INS0035,EST0054,Mobile App Development,60,0.0,2025-04-11,2025-11-02,En Progreso,Híbrida,Khan Academy
+INS0036,EST0707,Mobile App Development,51,0.0,2024-01-11,2024-09-23,Pausado,Híbrida,Skillshare
+INS0037,EST0040,Docker y Kubernetes,45,0.0,2025-03-10,2025-09-06,Activo,Virtual,FreeCodeCamp
+INS0038,EST0425,Marketing Digital,17,0.0,2025-01-02,2025-02-28,Cancelado,Autodirigida,Skillshare
+INS0039,EST0764,JavaScript Avanzado,93,57.0,2025-02-14,2025-10-02,Activo,Autodirigida,FreeCodeCamp
+INS0040,EST0945,AutoCAD,66,0.0,2023-10-22,2024-09-25,Pausado,Virtual,Codecademy
+INS0041,EST0930,JavaScript Avanzado,46,0.0,2023-09-14,2024-01-21,En Progreso,Autodirigida,edX
+INS0042,EST0680,Machine Learning,95,54.4,2025-01-10,2025-06-11,Activo,Virtual,LinkedIn Learning
+INS0043,EST0703,React Native,33,0.0,2023-09-18,2024-04-24,En Progreso,Virtual,MasterClass
+INS0044,EST0373,AutoCAD,17,0.0,2024-06-18,2025-01-26,Cancelado,Virtual,MasterClass
+INS0045,EST0849,Excel Avanzado,100,61.9,2023-12-07,2024-05-06,Completado,Virtual,Platzi
+INS0046,EST0716,Project Management,100,63.8,2024-05-09,2025-02-04,Completado,Virtual,LinkedIn Learning
+INS0047,EST0871,Django,100,90.5,2023-07-13,2024-05-06,Completado,Virtual,Skillshare
+INS0048,EST0466,Blockchain,87,58.5,2023-12-31,2024-07-12,Activo,Híbrida,Khan Academy
+INS0049,EST0489,Power BI,42,0.0,2025-02-03,2025-10-03,En Progreso,Híbrida,Udemy
+INS0050,EST0853,Marketing Digital,12,0.0,2023-12-08,2024-09-13,Activo,Virtual,FreeCodeCamp
+INS0051,EST0897,Node.js,100,87.2,2024-07-16,2024-11-27,Completado,Virtual,Codecademy
+INS0052,EST0475,AutoCAD,3,0.0,2024-08-03,2024-09-16,Activo,Híbrida,Skillshare
+INS0053,EST0729,DevOps y CI/CD,21,0.0,2023-09-17,2023-11-02,En Progreso,Híbrida,Khan Academy
+INS0054,EST0028,JavaScript Avanzado,100,61.9,2025-02-04,2025-11-15,Completado,Autodirigida,Coursera
+INS0055,EST0690,Power BI,100,71.8,2023-11-27,2024-01-19,Completado,Autodirigida,FreeCodeCamp
+INS0056,EST0583,JavaScript Avanzado,50,0.0,2024-01-25,2024-07-01,Pausado,Autodirigida,Khan Academy
+INS0057,EST0446,JavaScript Avanzado,63,0.0,2025-02-06,2025-05-23,En Progreso,Presencial,Skillshare
+INS0058,EST0634,Cloud Computing AWS,100,75.6,2023-07-06,2023-12-25,Completado,Autodirigida,LinkedIn Learning
+INS0059,EST0097,Data Science con R,33,0.0,2024-03-11,2024-05-24,Activo,Presencial,Codecademy
+INS0060,EST0066,IoT,100,88.8,2024-04-02,2025-03-23,Completado,Presencial,edX
+INS0061,EST0177,Análisis de Datos,41,0.0,2025-04-13,2025-08-08,Pausado,Virtual,Platzi
+INS0062,EST0736,Power BI,12,0.0,2023-11-16,2024-07-10,Cancelado,Híbrida,Khan Academy
+INS0063,EST0050,JavaScript Avanzado,13,0.0,2024-11-13,2025-08-15,Cancelado,Virtual,Khan Academy
+INS0064,EST0635,Big Data,65,0.0,2024-12-07,2025-09-13,Pausado,Autodirigida,Udemy
+INS0065,EST0043,Blockchain,68,0.0,2024-09-19,2024-12-16,Activo,Presencial,MasterClass
+INS0066,EST0066,Cloud Computing AWS,2,0.0,2024-07-23,2025-07-05,Cancelado,Presencial,LinkedIn Learning
+INS0067,EST0713,Ciberseguridad,6,0.0,2023-07-20,2023-09-17,Cancelado,Autodirigida,Coursera
+INS0068,EST0965,Data Science con R,94,87.6,2023-10-14,2024-01-04,Activo,Autodirigida,edX
+INS0069,EST0384,React Native,89,93.6,2025-03-27,2025-11-10,Activo,Virtual,MasterClass
+INS0070,EST0710,React Native,16,0.0,2025-02-03,2025-03-22,Pausado,Virtual,Khan Academy
+INS0071,EST0745,Data Science con R,23,0.0,2024-04-11,2025-04-04,En Progreso,Virtual,Udemy
+INS0072,EST0717,Ciberseguridad,22,0.0,2024-04-25,2024-06-01,Cancelado,Autodirigida,Udemy
+INS0073,EST0882,Power BI,100,94.9,2023-10-19,2024-03-01,Completado,Presencial,Khan Academy
+INS0074,EST0275,Django,60,0.0,2024-07-30,2025-05-14,Pausado,Autodirigida,edX
+INS0075,EST0080,Vue.js,14,0.0,2025-01-30,2025-10-03,En Progreso,Presencial,Udemy
+INS0076,EST0630,Big Data,100,68.9,2024-10-11,2025-09-26,Completado,Autodirigida,Skillshare
+INS0077,EST0432,Tableau,55,0.0,2024-12-23,2025-07-03,Pausado,Autodirigida,Codecademy
+INS0078,EST0468,Desarrollo Web Full Stack,41,0.0,2023-11-12,2024-03-07,Pausado,Autodirigida,Skillshare
+INS0079,EST0022,Django,26,0.0,2024-08-22,2024-12-19,En Progreso,Presencial,Udemy
+INS0080,EST0503,Docker y Kubernetes,11,0.0,2023-06-08,2023-07-08,Cancelado,Autodirigida,edX
+INS0081,EST0674,Django,100,80.1,2023-10-03,2024-04-18,Completado,Híbrida,FreeCodeCamp
+INS0082,EST0028,Mobile App Development,100,73.1,2024-11-08,2025-07-03,Completado,Híbrida,edX
+INS0083,EST0847,Cloud Computing AWS,73,0.0,2025-03-27,2025-12-12,Pausado,Híbrida,Codecademy
+INS0084,EST0947,Inteligencia Artificial,76,0.0,2024-03-07,2024-09-11,En Progreso,Virtual,Udemy
+INS0085,EST0403,JavaScript Avanzado,100,64.9,2025-01-13,2025-03-15,Completado,Autodirigida,MasterClass
+INS0086,EST0297,IoT,24,0.0,2023-05-29,2024-03-28,Cancelado,Autodirigida,Skillshare
+INS0087,EST0693,Big Data,63,0.0,2025-05-17,2026-03-26,Pausado,Autodirigida,FreeCodeCamp
+INS0088,EST0691,JavaScript Avanzado,50,0.0,2024-08-02,2025-05-26,En Progreso,Autodirigida,Codecademy
+INS0089,EST0633,Excel Avanzado,22,0.0,2024-06-16,2024-09-09,Cancelado,Virtual,MasterClass
+INS0090,EST0338,Angular,35,0.0,2025-02-01,2025-03-18,En Progreso,Presencial,LinkedIn Learning
+INS0091,EST0945,JavaScript Avanzado,55,0.0,2023-12-05,2024-10-04,En Progreso,Virtual,LinkedIn Learning
+INS0092,EST0545,Tableau,19,0.0,2024-08-17,2025-05-24,Pausado,Virtual,LinkedIn Learning
+INS0093,EST0141,DevOps y CI/CD,6,0.0,2023-08-16,2024-01-15,Activo,Presencial,Coursera
+INS0094,EST0668,Desarrollo Web Full Stack,11,0.0,2024-02-07,2024-04-06,Activo,Presencial,Khan Academy
+INS0095,EST0281,Angular,74,0.0,2023-09-27,2024-03-11,Activo,Autodirigida,Khan Academy
+INS0096,EST0177,Python Básico,29,0.0,2023-06-26,2023-12-07,Cancelado,Autodirigida,Platzi
+INS0097,EST0792,Big Data,56,0.0,2023-10-26,2024-05-22,Pausado,Presencial,Coursera
+INS0098,EST0306,Data Science con R,7,0.0,2024-08-04,2025-01-30,Activo,Presencial,Khan Academy
+INS0099,EST0690,UI/UX Design,35,0.0,2023-12-31,2024-04-23,Activo,Autodirigida,MasterClass
+INS0100,EST0101,Mobile App Development,59,0.0,2023-12-23,2024-01-27,Pausado,Autodirigida,Coursera
+INS0101,EST0555,Bases de Datos SQL,100,98.8,2023-07-15,2024-05-22,Completado,Virtual,Udemy
+INS0102,EST0476,Django,49,0.0,2024-02-15,2024-11-05,Pausado,Híbrida,edX
+INS0103,EST0610,Docker y Kubernetes,100,93.5,2024-09-13,2025-04-03,Completado,Virtual,Codecademy
+INS0104,EST0145,DevOps y CI/CD,53,0.0,2024-04-20,2024-12-21,Pausado,Presencial,Coursera
+INS0105,EST0454,Django,38,0.0,2023-08-26,2023-10-10,Pausado,Híbrida,Codecademy
+INS0106,EST0695,Tableau,69,0.0,2023-10-24,2024-09-10,En Progreso,Virtual,Codecademy
+INS0107,EST0943,DevOps y CI/CD,85,53.8,2024-09-20,2025-09-09,Activo,Autodirigida,edX
+INS0108,EST0214,JavaScript Avanzado,36,0.0,2024-09-24,2025-01-06,Pausado,Presencial,Platzi
+INS0109,EST0491,Robótica,100,85.1,2024-12-10,2025-08-02,Completado,Híbrida,Platzi
+INS0110,EST0487,Big Data,100,71.4,2023-10-23,2024-04-19,Completado,Híbrida,Platzi
+INS0111,EST0410,Big Data,68,0.0,2024-11-12,2025-01-01,Pausado,Virtual,Codecademy
+INS0112,EST0208,Blockchain,63,0.0,2025-02-16,2025-11-09,Pausado,Híbrida,Udemy
+INS0113,EST0530,Blockchain,3,0.0,2023-12-22,2024-04-02,Cancelado,Híbrida,Platzi
+INS0114,EST0278,Ciberseguridad,100,72.8,2024-06-03,2025-03-16,Completado,Virtual,Skillshare
+INS0115,EST0760,Machine Learning,25,0.0,2023-11-15,2024-11-14,Cancelado,Híbrida,Codecademy
+INS0116,EST0377,Blockchain,75,0.0,2024-11-30,2025-05-27,Pausado,Híbrida,MasterClass
+INS0117,EST0908,IoT,85,75.5,2025-01-05,2025-03-20,Activo,Virtual,edX
+INS0118,EST0693,Vue.js,41,0.0,2023-11-10,2024-01-04,Activo,Virtual,Platzi
+INS0119,EST0641,Mobile App Development,38,0.0,2024-06-08,2025-03-27,Pausado,Virtual,LinkedIn Learning
+INS0120,EST0851,Ciberseguridad,75,0.0,2024-08-12,2025-01-20,Pausado,Autodirigida,Skillshare
+INS0121,EST0473,Angular,11,0.0,2024-03-10,2025-02-06,Cancelado,Híbrida,LinkedIn Learning
+INS0122,EST0405,Robótica,80,0.0,2024-03-06,2024-06-17,Activo,Híbrida,Coursera
+INS0123,EST0685,Django,100,95.1,2024-11-04,2025-05-13,Completado,Presencial,Platzi
+INS0124,EST0635,Big Data,84,86.3,2025-01-23,2025-09-26,Activo,Presencial,Platzi
+INS0125,EST0623,Django,74,0.0,2023-10-23,2024-05-16,Activo,Virtual,Platzi
+INS0126,EST0609,Big Data,82,67.1,2023-12-18,2024-08-01,Activo,Híbrida,Platzi
+INS0127,EST0901,Ciberseguridad,100,75.7,2023-10-14,2024-01-30,Completado,Presencial,Skillshare
+INS0128,EST0364,DevOps y CI/CD,15,0.0,2023-08-13,2023-10-22,En Progreso,Híbrida,Skillshare
+INS0129,EST0686,Marketing Digital,74,0.0,2024-10-16,2024-12-22,Pausado,Híbrida,LinkedIn Learning
+INS0130,EST0387,Data Science con R,31,0.0,2024-06-21,2024-08-03,Activo,Autodirigida,Skillshare
+INS0131,EST0743,Vue.js,11,0.0,2024-05-28,2024-07-04,Pausado,Híbrida,Platzi
+INS0132,EST0807,Análisis de Datos,51,0.0,2023-11-10,2024-04-13,En Progreso,Virtual,LinkedIn Learning
+INS0133,EST0456,Análisis de Datos,32,0.0,2024-03-24,2024-11-26,Activo,Autodirigida,Coursera
+INS0134,EST0271,Tableau,10,0.0,2024-01-31,2024-10-17,Pausado,Autodirigida,FreeCodeCamp
+INS0135,EST0767,Machine Learning,45,0.0,2025-02-26,2025-05-29,En Progreso,Autodirigida,MasterClass
+INS0136,EST0308,Power BI,67,0.0,2024-07-17,2025-06-10,Pausado,Virtual,edX
+INS0137,EST0806,Data Science con R,64,0.0,2024-09-29,2024-11-05,Activo,Híbrida,Skillshare
+INS0138,EST0178,Node.js,1,0.0,2024-01-30,2024-06-08,Cancelado,Autodirigida,MasterClass
+INS0139,EST0315,DevOps y CI/CD,72,0.0,2024-04-09,2024-06-30,En Progreso,Híbrida,Coursera
+INS0140,EST0162,Python Básico,100,68.0,2024-01-17,2024-04-16,Completado,Virtual,LinkedIn Learning
+INS0141,EST0486,Django,4,0.0,2024-10-14,2024-12-21,Cancelado,Presencial,Udemy
+INS0142,EST0763,Data Science con R,74,0.0,2023-11-17,2024-06-18,En Progreso,Híbrida,LinkedIn Learning
+INS0143,EST0629,Node.js,14,0.0,2023-09-13,2023-11-03,Activo,Virtual,Khan Academy
+INS0144,EST0196,Análisis de Datos,3,0.0,2023-09-02,2023-11-14,Cancelado,Presencial,Codecademy
+INS0145,EST0957,UI/UX Design,100,86.1,2024-01-06,2024-12-12,Completado,Híbrida,MasterClass
+INS0146,EST0229,Angular,100,83.8,2023-05-31,2023-10-06,Completado,Presencial,Coursera
+INS0147,EST0970,Mobile App Development,59,0.0,2024-09-23,2025-01-02,En Progreso,Virtual,Khan Academy
+INS0148,EST0593,Cloud Computing AWS,70,0.0,2024-05-08,2024-08-11,Pausado,Virtual,FreeCodeCamp
+INS0149,EST0611,Django,19,0.0,2024-06-30,2024-12-11,Pausado,Híbrida,FreeCodeCamp
+INS0150,EST0659,Docker y Kubernetes,11,0.0,2025-03-15,2025-06-19,Pausado,Presencial,Khan Academy
+INS0151,EST0728,Robótica,100,74.9,2023-11-01,2024-09-24,Completado,Virtual,MasterClass
+INS0152,EST0763,Mobile App Development,100,64.2,2024-05-15,2024-12-10,Completado,Presencial,edX
+INS0153,EST0013,Excel Avanzado,32,0.0,2024-12-18,2025-07-26,Pausado,Autodirigida,Platzi
+INS0154,EST0483,Mobile App Development,10,0.0,2024-11-01,2025-03-09,Cancelado,Autodirigida,Skillshare
+INS0155,EST0921,Blockchain,100,70.1,2024-10-11,2024-12-05,Completado,Presencial,FreeCodeCamp
+INS0156,EST0468,AutoCAD,13,0.0,2024-11-09,2025-05-17,En Progreso,Virtual,FreeCodeCamp
+INS0157,EST0389,JavaScript Avanzado,44,0.0,2023-07-11,2024-04-06,En Progreso,Híbrida,FreeCodeCamp
+INS0158,EST0772,Robótica,5,0.0,2023-11-21,2024-06-27,Cancelado,Presencial,LinkedIn Learning
+INS0159,EST0198,Power BI,17,0.0,2025-04-03,2025-12-23,Activo,Virtual,edX
+INS0160,EST0361,DevOps y CI/CD,100,93.2,2024-12-23,2025-10-09,Completado,Virtual,FreeCodeCamp
+INS0161,EST0001,Node.js,100,86.1,2023-06-03,2023-10-26,Completado,Híbrida,Coursera
+INS0162,EST0129,Mobile App Development,30,0.0,2023-06-27,2024-02-02,Cancelado,Virtual,Khan Academy
+INS0163,EST0588,Vue.js,84,95.0,2025-04-08,2025-11-03,Activo,Híbrida,Khan Academy
+INS0164,EST0670,Análisis de Datos,1,0.0,2025-01-07,2025-03-09,En Progreso,Virtual,Khan Academy
+INS0165,EST0317,Machine Learning,54,0.0,2024-08-27,2025-05-23,En Progreso,Virtual,Coursera
+INS0166,EST0625,Big Data,36,0.0,2024-03-01,2025-02-06,Pausado,Híbrida,Udemy
+INS0167,EST0829,Cloud Computing AWS,20,0.0,2024-05-04,2024-11-19,Activo,Virtual,edX
+INS0168,EST0562,Análisis de Datos,21,0.0,2025-03-19,2025-08-29,Cancelado,Híbrida,MasterClass
+INS0169,EST0744,Bases de Datos SQL,12,0.0,2024-09-14,2025-02-22,Pausado,Híbrida,Udemy
+INS0170,EST0216,Blockchain,45,0.0,2024-08-08,2025-06-29,En Progreso,Presencial,Skillshare
+INS0171,EST0788,Ciberseguridad,28,0.0,2025-04-21,2025-10-17,Cancelado,Presencial,Khan Academy
+INS0172,EST0149,Blockchain,100,67.5,2024-06-18,2024-10-01,Completado,Autodirigida,Skillshare
+INS0173,EST0115,Tableau,37,0.0,2023-09-08,2023-10-31,En Progreso,Híbrida,edX
+INS0174,EST0819,Power BI,26,0.0,2024-03-11,2024-11-14,Cancelado,Virtual,Skillshare
+INS0175,EST0757,Big Data,77,0.0,2025-02-04,2025-07-06,Pausado,Virtual,FreeCodeCamp
+INS0176,EST0367,Data Science con R,46,0.0,2023-05-28,2023-08-20,En Progreso,Autodirigida,FreeCodeCamp
+INS0177,EST0213,Tableau,48,0.0,2024-05-15,2024-08-19,En Progreso,Presencial,Platzi
+INS0178,EST0808,Blockchain,22,0.0,2025-02-11,2025-08-24,Cancelado,Virtual,Khan Academy
+INS0179,EST0678,Bases de Datos SQL,100,73.2,2023-07-27,2023-11-21,Completado,Híbrida,LinkedIn Learning
+INS0180,EST0459,Big Data,95,84.6,2024-06-30,2024-11-19,En Progreso,Virtual,Khan Academy
+INS0181,EST0309,Ciberseguridad,82,64.1,2024-11-16,2025-09-22,En Progreso,Autodirigida,Codecademy
+INS0182,EST0841,Machine Learning,21,0.0,2024-01-27,2025-01-09,Cancelado,Autodirigida,Khan Academy
+INS0183,EST0617,Tableau,46,0.0,2023-11-14,2024-06-10,Pausado,Presencial,FreeCodeCamp
+INS0184,EST0678,Excel Avanzado,24,0.0,2023-12-16,2024-06-29,Cancelado,Virtual,Skillshare
+INS0185,EST0867,Inteligencia Artificial,67,0.0,2024-11-12,2025-06-04,En Progreso,Híbrida,Khan Academy
+INS0186,EST0193,Inteligencia Artificial,40,0.0,2024-03-22,2025-02-25,Pausado,Híbrida,Skillshare
+INS0187,EST0851,Ciberseguridad,48,0.0,2024-11-09,2024-12-19,En Progreso,Virtual,Platzi
+INS0188,EST0938,Big Data,29,0.0,2025-03-16,2025-05-13,Cancelado,Híbrida,Udemy
+INS0189,EST0896,Project Management,48,0.0,2024-05-06,2024-11-02,Pausado,Híbrida,Platzi
+INS0190,EST0032,UI/UX Design,57,0.0,2024-11-09,2025-05-29,Pausado,Autodirigida,Coursera
+INS0191,EST0808,Cloud Computing AWS,10,0.0,2024-05-23,2024-10-26,Cancelado,Autodirigida,Codecademy
+INS0192,EST0743,Django,92,50.6,2025-03-09,2026-02-28,Activo,Híbrida,edX
+INS0193,EST0643,Tableau,60,0.0,2023-05-26,2023-12-10,En Progreso,Híbrida,Udemy
+INS0194,EST0342,Python Básico,23,0.0,2024-02-20,2024-12-19,En Progreso,Autodirigida,Platzi
+INS0195,EST0008,Cloud Computing AWS,28,0.0,2024-07-19,2025-05-21,Activo,Autodirigida,FreeCodeCamp
+INS0196,EST0707,Inteligencia Artificial,73,0.0,2024-10-02,2025-05-04,Activo,Autodirigida,Coursera
+INS0197,EST0396,AutoCAD,1,0.0,2023-09-29,2024-07-24,Cancelado,Autodirigida,Udemy
+INS0198,EST0935,Big Data,100,77.1,2024-12-06,2025-08-27,Completado,Virtual,LinkedIn Learning
+INS0199,EST0751,Big Data,71,0.0,2024-07-14,2025-01-13,Activo,Virtual,Coursera
+INS0200,EST0616,Desarrollo Web Full Stack,78,0.0,2023-12-19,2024-06-17,Pausado,Híbrida,Coursera
+INS0201,EST0634,Análisis de Datos,32,0.0,2025-02-01,2025-12-26,En Progreso,Híbrida,Platzi
+INS0202,EST0258,Power BI,39,0.0,2023-06-05,2023-08-16,En Progreso,Híbrida,Platzi
+INS0203,EST0473,React Native,100,69.0,2025-01-20,2025-09-16,Completado,Virtual,edX
+INS0204,EST0950,Cloud Computing AWS,52,0.0,2023-10-07,2024-02-26,En Progreso,Híbrida,Coursera
+INS0205,EST0745,Inteligencia Artificial,79,0.0,2024-09-04,2025-01-24,En Progreso,Híbrida,FreeCodeCamp
+INS0206,EST0215,React Native,100,82.8,2024-04-06,2024-08-23,Completado,Presencial,MasterClass
+INS0207,EST0713,React Native,88,63.2,2023-11-05,2024-07-10,En Progreso,Autodirigida,Khan Academy
+INS0208,EST0364,Docker y Kubernetes,12,0.0,2024-02-15,2024-07-20,En Progreso,Híbrida,Codecademy
+INS0209,EST0402,Machine Learning,47,0.0,2025-03-16,2026-02-06,Pausado,Híbrida,FreeCodeCamp
+INS0210,EST0443,Docker y Kubernetes,100,81.5,2024-07-09,2025-04-21,Completado,Híbrida,Khan Academy
+INS0211,EST0690,React Native,39,0.0,2023-09-22,2024-05-26,Activo,Híbrida,Codecademy
+INS0212,EST0279,Análisis de Datos,14,0.0,2024-03-27,2024-04-29,Pausado,Autodirigida,FreeCodeCamp
+INS0213,EST0192,DevOps y CI/CD,100,62.3,2023-09-15,2023-12-26,Completado,Virtual,Codecademy
+INS0214,EST0045,Bases de Datos SQL,100,62.0,2023-10-03,2024-04-22,Completado,Virtual,Udemy
+INS0215,EST0044,Big Data,74,0.0,2023-12-04,2024-08-21,Activo,Híbrida,Udemy
+INS0216,EST0272,Inteligencia Artificial,52,0.0,2025-02-03,2025-04-22,Pausado,Autodirigida,Skillshare
+INS0217,EST0238,Data Science con R,24,0.0,2024-07-19,2024-10-06,Cancelado,Híbrida,Coursera
+INS0218,EST0763,Mobile App Development,43,0.0,2023-12-24,2024-06-14,En Progreso,Autodirigida,FreeCodeCamp
+INS0219,EST0645,Django,47,0.0,2025-05-14,2025-07-28,Pausado,Presencial,MasterClass
+INS0220,EST0636,Docker y Kubernetes,25,0.0,2024-10-05,2024-11-18,Pausado,Autodirigida,Khan Academy
+INS0221,EST0951,React Native,14,0.0,2023-08-24,2024-01-18,Activo,Autodirigida,Coursera
+INS0222,EST0123,Data Science con R,100,88.5,2024-03-19,2024-10-17,Completado,Autodirigida,Platzi
+INS0223,EST0083,Análisis de Datos,71,0.0,2023-08-01,2024-07-28,Pausado,Virtual,LinkedIn Learning
+INS0224,EST0059,Django,100,96.4,2025-05-07,2026-02-04,Completado,Autodirigida,LinkedIn Learning
+INS0225,EST0595,Marketing Digital,28,0.0,2024-09-25,2025-03-09,En Progreso,Híbrida,edX
+INS0226,EST0581,Power BI,34,0.0,2024-03-19,2024-07-28,Pausado,Virtual,Codecademy
+INS0227,EST0106,Marketing Digital,100,84.2,2023-06-15,2024-03-07,Completado,Autodirigida,Platzi
+INS0228,EST0580,Data Science con R,100,99.2,2023-10-23,2024-05-13,Completado,Virtual,Codecademy
+INS0229,EST0970,Robótica,100,97.9,2023-08-07,2024-04-25,Completado,Híbrida,Codecademy
+INS0230,EST0344,AutoCAD,53,0.0,2023-07-02,2023-09-20,En Progreso,Híbrida,Coursera
+INS0231,EST0728,Machine Learning,27,0.0,2024-06-01,2024-08-12,Activo,Virtual,Platzi
+INS0232,EST0165,Project Management,14,0.0,2025-04-05,2025-12-09,Cancelado,Híbrida,Udemy
+INS0233,EST0602,AutoCAD,5,0.0,2025-02-24,2025-06-20,Cancelado,Autodirigida,MasterClass
+INS0234,EST0843,Django,17,0.0,2024-10-16,2025-03-18,Cancelado,Presencial,Udemy
+INS0235,EST0229,Machine Learning,25,0.0,2025-02-27,2025-10-25,Cancelado,Presencial,LinkedIn Learning
+INS0236,EST0631,Desarrollo Web Full Stack,100,80.4,2024-05-29,2025-03-31,Completado,Virtual,Platzi
+INS0237,EST0431,Big Data,7,0.0,2023-08-29,2024-08-06,En Progreso,Híbrida,edX
+INS0238,EST0251,Project Management,12,0.0,2024-03-01,2024-12-07,Pausado,Híbrida,Coursera
+INS0239,EST0783,Mobile App Development,11,0.0,2025-03-05,2025-11-09,En Progreso,Virtual,Coursera
+INS0240,EST0862,Python Básico,46,0.0,2023-10-22,2024-06-26,Pausado,Virtual,edX
+INS0241,EST0543,Excel Avanzado,100,72.0,2023-10-29,2024-08-26,Completado,Presencial,Platzi
+INS0242,EST0388,Marketing Digital,20,0.0,2025-03-16,2025-11-08,En Progreso,Presencial,Platzi
+INS0243,EST0559,Machine Learning,26,0.0,2023-07-01,2024-03-27,Activo,Autodirigida,Udemy
+INS0244,EST0900,Python Básico,79,0.0,2025-04-15,2026-02-27,Pausado,Virtual,Platzi
+INS0245,EST0526,Bases de Datos SQL,65,0.0,2024-08-24,2025-03-10,Pausado,Híbrida,Codecademy
+INS0246,EST0725,Blockchain,10,0.0,2024-11-20,2025-01-15,Pausado,Híbrida,MasterClass
+INS0247,EST0216,DevOps y CI/CD,23,0.0,2024-02-04,2024-10-25,Pausado,Virtual,Skillshare
+INS0248,EST0186,Marketing Digital,100,77.1,2023-11-22,2024-10-24,Completado,Virtual,Skillshare
+INS0249,EST0843,Desarrollo Web Full Stack,30,0.0,2023-06-20,2024-03-01,En Progreso,Híbrida,Khan Academy
+INS0250,EST0484,Excel Avanzado,25,0.0,2024-06-17,2024-07-28,Cancelado,Virtual,Skillshare
+INS0251,EST0665,Angular,5,0.0,2023-11-27,2023-12-27,Cancelado,Presencial,edX
+INS0252,EST0683,Cloud Computing AWS,85,62.2,2024-01-18,2024-05-24,En Progreso,Virtual,FreeCodeCamp
+INS0253,EST0250,Machine Learning,68,0.0,2024-04-27,2025-01-17,Pausado,Autodirigida,FreeCodeCamp
+INS0254,EST0747,Angular,80,0.0,2025-02-28,2025-08-29,Activo,Virtual,Udemy
+INS0255,EST0079,Node.js,31,0.0,2025-02-16,2025-06-30,Activo,Híbrida,Platzi
+INS0256,EST0270,Data Science con R,68,0.0,2025-04-01,2025-07-11,Pausado,Presencial,Coursera
+INS0257,EST0346,React Native,53,0.0,2024-09-07,2024-10-11,Activo,Híbrida,Coursera
+INS0258,EST0090,Docker y Kubernetes,29,0.0,2023-07-07,2023-10-13,Cancelado,Autodirigida,Platzi
+INS0259,EST0751,Project Management,61,0.0,2024-12-05,2025-08-02,Pausado,Autodirigida,edX
+INS0260,EST0199,Bases de Datos SQL,61,0.0,2024-09-26,2024-12-02,Activo,Autodirigida,Udemy
+INS0261,EST0863,AutoCAD,36,0.0,2023-12-20,2024-05-09,Pausado,Presencial,Platzi
+INS0262,EST0249,Bases de Datos SQL,100,78.6,2023-12-03,2024-05-03,Completado,Híbrida,edX
+INS0263,EST0316,Django,36,0.0,2023-08-19,2024-07-22,En Progreso,Virtual,Coursera
+INS0264,EST0900,AutoCAD,55,0.0,2023-12-19,2024-02-08,En Progreso,Virtual,Khan Academy
+INS0265,EST0580,Bases de Datos SQL,57,0.0,2023-08-15,2023-12-14,En Progreso,Presencial,Coursera
+INS0266,EST0929,Mobile App Development,64,0.0,2024-03-29,2024-09-29,En Progreso,Presencial,Platzi
+INS0267,EST0158,Cloud Computing AWS,100,87.8,2024-08-11,2025-06-23,Completado,Híbrida,Khan Academy
+INS0268,EST0414,Big Data,79,0.0,2025-03-18,2025-05-28,En Progreso,Presencial,edX
+INS0269,EST0730,Bases de Datos SQL,31,0.0,2025-03-28,2025-08-17,Activo,Autodirigida,Udemy
+INS0270,EST0795,AutoCAD,25,0.0,2023-07-03,2024-06-11,Pausado,Presencial,Khan Academy
+INS0271,EST0754,Python Básico,10,0.0,2024-11-22,2025-08-25,Cancelado,Híbrida,MasterClass
+INS0272,EST0432,IoT,77,0.0,2025-05-04,2026-04-11,En Progreso,Autodirigida,Platzi
+INS0273,EST0759,Bases de Datos SQL,56,0.0,2024-03-23,2025-01-13,Pausado,Híbrida,Khan Academy
+INS0274,EST0295,Django,65,0.0,2024-10-04,2024-11-10,En Progreso,Híbrida,MasterClass
+INS0275,EST0538,AutoCAD,24,0.0,2024-12-11,2025-02-19,Cancelado,Autodirigida,edX
+INS0276,EST0396,Excel Avanzado,88,93.4,2024-06-10,2024-07-28,En Progreso,Virtual,Coursera
+INS0277,EST0685,Node.js,7,0.0,2023-07-08,2024-06-15,En Progreso,Autodirigida,Skillshare
+INS0278,EST0687,Tableau,27,0.0,2023-12-21,2024-02-11,Cancelado,Autodirigida,MasterClass
+INS0279,EST0073,IoT,73,0.0,2024-11-07,2025-03-17,Pausado,Híbrida,Coursera
+INS0280,EST0311,Project Management,100,70.5,2024-06-01,2024-07-09,Completado,Virtual,Skillshare
+INS0281,EST0532,Data Science con R,86,91.1,2023-10-22,2024-01-07,Activo,Presencial,Coursera
+INS0282,EST0109,Project Management,90,50.5,2024-05-16,2024-11-05,En Progreso,Presencial,Udemy
+INS0283,EST0954,Inteligencia Artificial,29,0.0,2025-01-04,2025-04-14,Cancelado,Híbrida,LinkedIn Learning
+INS0284,EST0020,Desarrollo Web Full Stack,36,0.0,2024-05-24,2025-03-28,En Progreso,Presencial,MasterClass
+INS0285,EST0821,Python Básico,3,0.0,2024-06-13,2025-02-23,En Progreso,Virtual,MasterClass
+INS0286,EST0299,Ciberseguridad,87,84.8,2023-07-13,2023-11-08,En Progreso,Híbrida,LinkedIn Learning
+INS0287,EST0688,Django,58,0.0,2024-11-16,2025-08-12,Pausado,Presencial,LinkedIn Learning
+INS0288,EST0055,JavaScript Avanzado,100,72.0,2025-04-14,2025-10-09,Completado,Híbrida,Coursera
+INS0289,EST0792,Blockchain,25,0.0,2023-11-24,2024-01-02,Activo,Autodirigida,edX
+INS0290,EST0742,Inteligencia Artificial,16,0.0,2024-05-20,2024-09-07,Cancelado,Presencial,LinkedIn Learning
+INS0291,EST0036,Power BI,100,91.9,2024-07-30,2024-11-28,Completado,Virtual,MasterClass
+INS0292,EST0746,Vue.js,100,97.0,2023-08-09,2023-09-29,Completado,Presencial,Platzi
+INS0293,EST0729,Robótica,0,0.0,2024-09-10,2025-09-10,Cancelado,Híbrida,Khan Academy
+INS0294,EST0732,Node.js,6,0.0,2025-02-02,2025-12-26,Cancelado,Autodirigida,LinkedIn Learning
+INS0295,EST0396,Django,41,0.0,2024-09-25,2024-11-10,Activo,Autodirigida,Coursera
+INS0296,EST0965,Machine Learning,29,0.0,2023-09-28,2024-07-18,Cancelado,Autodirigida,Coursera
+INS0297,EST0084,Inteligencia Artificial,100,85.8,2023-06-16,2023-10-19,Completado,Híbrida,Udemy
+INS0298,EST0985,AutoCAD,27,0.0,2024-05-27,2025-01-10,En Progreso,Híbrida,Coursera
+INS0299,EST0965,Vue.js,23,0.0,2024-09-01,2025-02-13,Cancelado,Presencial,Udemy
+INS0300,EST0162,Marketing Digital,89,91.9,2025-02-12,2025-12-10,En Progreso,Virtual,FreeCodeCamp
