@@ -1,0 +1,40 @@
+modules = ["python-3.11"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["antlr", "glibcLocales"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "DSL Setup and Test"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "setup_and_test"
+
+[[workflows.workflow]]
+name = "DSL Setup and Test"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pip install pandas faker antlr4-python3-runtime && python main.py setup && python main.py test"
+
+[[workflows.workflow]]
+name = "setup_and_test"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pip install antlr4-python3-runtime pandas faker && python main.py setup"
+
+[deployment]
+run = ["sh", "-c", "pip install pandas faker antlr4-python3-runtime && python main.py setup && python main.py test"]
