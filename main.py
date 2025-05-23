@@ -1119,6 +1119,27 @@ def generate_parse_tree():
     except Exception as e:
         print(f"✗ Error generating parse tree: {e}")
 
+def generate_antlr_parse_tree():
+    """Generate ANTLR4 authentic parse tree"""
+    try:
+        from src.antlr_csv_interpreter import generate_parse_tree_gui
+        
+        if not os.path.exists("scripts/demo_parse_tree.dsl"):
+            print("Demo script not found. Running setup first...")
+            setup_test_scripts()
+        
+        print("Generating ANTLR4 authentic parse tree...")
+        tree = generate_parse_tree_gui("scripts/demo_parse_tree.dsl")
+        
+        if tree:
+            print(f"✓ ANTLR4 parse tree generated successfully!")
+            print(f"  Tree structure displayed above")
+        else:
+            print("✗ Failed to generate ANTLR4 parse tree")
+            
+    except Exception as e:
+        print(f"✗ Error generating ANTLR4 parse tree: {e}")
+
 def interactive_mode():
     """Run in interactive mode"""
     from src.csv_query_interpreter import CSVQueryDSLInterpreter, parse_dsl_string
@@ -1233,6 +1254,11 @@ def main():
         elif command == 'parse-tree':
             # Generate parse tree for demo script
             generate_parse_tree()
+            return
+            
+        elif command == 'antlr-tree':
+            # Generate ANTLR4 authentic parse tree
+            generate_antlr_parse_tree()
             return
         
         elif command.endswith('.dsl'):

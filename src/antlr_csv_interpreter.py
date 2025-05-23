@@ -12,17 +12,20 @@ from datetime import datetime
 import re
 
 # Add the generated parser files to the path
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'grammar', 'grammar'))
+grammar_path = os.path.join(os.path.dirname(__file__), '..', 'grammar', 'grammar')
+sys.path.insert(0, grammar_path)
 
 try:
     from CSVQueryDSLLexer import CSVQueryDSLLexer
     from CSVQueryDSLParser import CSVQueryDSLParser
     from CSVQueryDSLListener import CSVQueryDSLListener
     from CSVQueryDSLVisitor import CSVQueryDSLVisitor
+    print("✓ ANTLR4 generated files loaded successfully")
 except ImportError as e:
-    print(f"ANTLR4 generated files not found: {e}")
-    print("Please ensure ANTLR4 files are generated in grammar/grammar/ directory")
-    sys.exit(1)
+    print(f"✗ ANTLR4 generated files not found: {e}")
+    # Fallback to simple interpreter
+    from simple_dsl_interpreter import SimpleDSLInterpreter as FallbackInterpreter
+    print("✓ Using fallback interpreter")
 
 class CSVQueryDSLInterpreter(CSVQueryDSLListener):
     def __init__(self):

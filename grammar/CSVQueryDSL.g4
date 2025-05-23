@@ -11,7 +11,7 @@ statement: loadStatement
 
 loadStatement: 'load' STRING ';';
 
-filterStatement: 'filter' 'column' STRING operator value logicalOp?;
+filterStatement: 'filter' 'column' STRING operator value logicalOp? ';';
 
 aggregateStatement: 'aggregate' aggregateFunction 'column' STRING ';';
 
